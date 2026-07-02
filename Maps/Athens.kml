@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+  <Document>
+    <name>Athens Map Rework with Parking</name>
+    <description>
+      Athens locations grouped by Building Type, with Parking nested in its own
+      folder.
+    </description>
+    <Style id='poly-097138-2601-117-normal'>
+      <LineStyle>
+        <color>ff387109</color>
+        <width>2.601</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>75387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id='poly-097138-2601-117-highlight'>
+      <LineStyle>
+        <color>ff387109</color>
+        <width>3.9015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>75387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id='poly-097138-3201-145-nodesc-normal'>
+      <LineStyle>
+        <color>ff387109</color>
+        <width>3.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>91387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id='poly-097138-3201-145-nodesc-highlight'>
+      <LineStyle>
+        <color>ff387109</color>
+        <width>4.8015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>91387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id='poly-097138-4601-156-normal'>
+      <LineStyle>
+        <color>ff387109</color>
+        <width>4.601</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>9c387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id='poly-097138-4601-156-highlight'>
+      <LineStyle>
+        <color>ff387109</color>
+        <width>6.9015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>9c387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id='poly-673AB7-1200-77-normal'>
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db73a67</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id='poly-673AB7-1200-77-highlight'>
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db73a67</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id='poly-097138-2601-117'>
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-097138-2601-117-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-097138-2601-117-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id='poly-097138-3201-145-nodesc'>
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-097138-3201-145-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-097138-3201-145-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id='poly-097138-4601-156'>
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-097138-4601-156-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-097138-4601-156-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id='poly-673AB7-1200-77'>
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-673AB7-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-673AB7-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Athens Map Rework</name>
+      <Folder>
+        <name>Academic</name>
+        <Placemark>
+          <name>31 South Court Street</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-07/31S_CourtSt.jpeg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 31 South Court St., Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> North Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> The building is located on Court Street,  coordinates H-3 on the campus map. It is across the same side of Court Street as the Athens County Courthouse, but closer to Union Street. It is marked as #37 on the map.<br/><br/>The building currently houses the Schey Sale Center, Chaddock + Morrow College of Fine Arts School of Film, and Interdisciplinary Arts.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/31-south-court-street">https://www.ohio.edu/building-directory/31-south-court-street</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10176744,39.32812777,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Academic and Research Center</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2025-10/20240708arc_003bws.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 61 Oxbow Trail, Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> West Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> The Charles R. and Marilyn Y. Stuckey Academic and Research Center is located to the northeast of Stocker Engineering and Technology Center, in the West Green, coordinates E-3 on the campus map. It is marked as #119 on the map.<br/><br/>It is currently used by the Russ College of Engineering and is home to the Kokosing Teaching Laboratory—a critical resource for students in the construction management certificate.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/academic-and-research-center">https://www.ohio.edu/building-directory/academic-and-research-center</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10596248,39.32684194,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Alden Library</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2025-09/20231212alden_library_drone_winter_bws00007%20%281%29.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 30 Park Place, Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> College Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Alden Library is located in the College Green, coordinates G-4 on the campus map. It is marked as #7 on the map.<br/><br/>Vernon R. Alden Library serves the Athens campus as the central library facility; the building can seat 3,000 readers. The Ohio University libraries&#39; collections over 3 million print and electronic volumes, more than 55,000 serial titles, and more than 250,000 media items, ranking the libraries among the 100 largest academic libraries in the United States. Featuring world-class special collections, the Library is home to the Center for International Collections, the Mahn Center for Archives &amp; Special Collections, the Harris Fine Arts Library, and the Academic Advancement Center. In addition, Alden Library&#39;s Learning Commons offers access to information resources, computers, study spaces for individual students and groups, and expert assistance from librarians.<br/><br/>Alden Library houses the OHIO Testing Center, Accessibility Services, and Ohio University Press.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/alden-library">https://www.ohio.edu/building-directory/alden-library</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10020269,39.32550184,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Bentley Hall and Annex</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-02/bentley.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 4 President St., Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> College Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Bentley Hall and Annex are located on President Street, West of Chubb Hall, between coordinates G-3 and G-4 on the campus map. They are respectively marked as #27 and #28 on the map.<br/><br/>Bentley Hall and Annex house the departments of Economics, History, Political Science, and Sociology and Anthropology, together with lecture halls, classrooms of various sizes, and seminar rooms.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/bentley-hall-and-annex">https://www.ohio.edu/building-directory/bentley-hall-and-annex</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10224159,39.32655688,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Biochemistry Research Facility</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-02/biochemistry.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 332 West State St., Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> Enterprise Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> The Biochemistry Research Facility is located on West State Street, at coordinates B-1 on the campus map. It is marked as #143 on the map.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/biochemistry-research-facility">https://www.ohio.edu/building-directory/biochemistry-research-facility</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.11605166,39.33499238,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Botanical Research</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-03/grnhs.gif" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 86 University Terrace, Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> South Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> The Botanical Research building is located in the South Green, coordinates I-5 on the campus map. It is marked as #96 on the map.<br/><br/>The Botanical Research building, its adjoining greenhouse, and the adjacent one-acre botanical garden contain collections of plants that are used in teaching and research within the Department of Environmental and Plant Biology. The indoor and outdoor collections total more than 650 plants.<br/><br/>The Botanical Research building also houses two computer laboratories operated by the School of Electrical Engineering and Computer Science.<br/><br/>The 4,000-square-foot greenhouse has several rooms where plants from six continents are grown. The Monroe T. Vermillion Room contains a collection of succulents which includes more than 130 species that grow in arid regions of the world. Many of these plants are documented as having been grown from seeds or cuttings collected in their native habitat in 16 countries on four continents.<br/><br/>Every summer, several species of the mint and verbena families are moved from the greenhouse and replanted in the botanical garden. These are returned to the greenhouse for winter because they come from regions where the winter climate is milder than that of southeastern Ohio.<br/><br/>Associated with the greenhouse is the Bartley Herbarium, which has over 40,000 preserved specimens of vascular plants and 1,000 bryophytes.<br/><br/>Arrangements for small group tours of the greenhouse can be made by calling the Department of Environmental and Plant Biology, 593-1126.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/botanical-research">https://www.ohio.edu/building-directory/botanical-research</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.09839961,39.32597536,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Chemistry Building</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-06/20210412_Chemistry_Building_rjf_002.JPG" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 133 University Terrace, Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> South Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> The Chemistry Building is located in the South Green between Clippinger Laboratories and Emeriti Park, coordinates H-6 on the campus map. It is marked as #149 on the map.<br/><br/> </p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/chemistry-building">https://www.ohio.edu/building-directory/chemistry-building</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.09990975,39.32339604,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Clippinger Laboratories</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-03/clip.gif" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 139 University Terrace, Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> South Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Clippinger Laboratories is located in the South Green, coordinates H-6 on the campus map. It is marked as #93 on the map.<br/><br/>Clippinger Laboratories houses the departments of Physics and Astronomy, Chemistry and Biochemistry, Geography, and Earth and Environmental Geosciences. It is used for research and undergraduate teaching, including both classrooms and laboratories.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/clippinger-laboratories">https://www.ohio.edu/building-directory/clippinger-laboratories</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.09896525,39.32273098,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Clippinger Research Annex</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2023-02/20210628clippinger_research_annex_bws0001.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 236 University Terrace, Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> South Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> The Clippinger Research Annex is used for a variety of leading research efforts including nanomagnetism/nanospintronics research by Prof. Arthur Smith and electromagnetic bio-sensory research by Prof. David Russell and Prof. Alexander Neiman. Also housed within the building is the helium liquefaction facility, a computer room, and various support labs. Ohio University&#39;s Helium Recovery and Liquefaction Facility recycles boiled-off helium gas from research labs within the Annex, the Surface Science Laboratory, and Clippinger Laboratories.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/clippinger-research-annex">https://www.ohio.edu/building-directory/clippinger-research-annex</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.09846738,39.322908,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Copeland Hall</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-08/20190625copeland_hall_bws0010.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 71 S. Court St., Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> College Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Copeland Hall is located in the College Green, coordinates G-3 on the campus map. It is marked as #29 on the map.<br/><br/>Copeland Hall houses the College of Business, including Accountancy, Finance, Management Information Systems, Management Systems, Marketing, M.B.A. Programs, and Sports Administration.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/copeland-hall">https://www.ohio.edu/building-directory/copeland-hall</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10168272,39.3271093,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Edwards Accelerator Lab</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-03/edwards.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 123 University Terrace, Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> South Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Edwards Accelerator Lab is located in the College Green, coordinates H-5 on the campus map. It is marked as #98 on the map.<br/><br/>Edwards Accelerator Lab houses a nuclear physics and materials science research laboratory, including electronics shops where some of the research equipment is made and repaired. The accelerator is a tandem Van de Graaff, that is used to accelerate atomic particles to energies up to 9 MeV (14% of the speed of light) via a large dome charged to high voltage by a moving chain. More details about the Accelerator Laboratory are available online.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/edwards-accelerator-lab">https://www.ohio.edu/building-directory/edwards-accelerator-lab</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.09984928,39.32413641,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Ellis Hall</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-07/20030523-Untitled-6.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 45 University Terrace, Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> College Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Ellis Hall is located in the College Green, coordinates H-4 on the campus map. It is marked as #6 on the map.<br/><br/>Ellis Hall houses the departments of Classics and Religious Studies, English, and Philosophy, and also the Center for Applied and Professional Ethics. It holds classrooms, faculty offices, seminar rooms, and laboratories.<br/><br/>Renovations were completed to Ellis Hall in 2019; the building now features key sustainability efforts and accessibility upgrades.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/ellis-hall">https://www.ohio.edu/building-directory/ellis-hall</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.09937567,39.32599648,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Environmental &amp; Plant Biology Greenhouse</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2022-11/greenhouse.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 86 University Terrace, Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> South Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> The Plant Biology Greenhouses are housed in the Botanical Research Building (#96 on campus map). The 4,576 square-foot greenhouse and 1,250 square-foot headhouse and storage area were erected in 1972, with the adjacent 1-acre garden starting in 1979. The mission of the greenhouse and instructional garden is to provide a plant collection that serves the interest of Environmental &amp; Plant Biology.<br/><br/>Associated with the greenhouse is the Bartley Herbarium, which has over 40,000 preserved specimens of vascular plants and 1,000 bryophytes.<br/><br/>Arrangements for small group tours of the greenhouse can be made by calling the Department of Environmental and Plant Biology, 593-1126.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/greenhouse">https://www.ohio.edu/building-directory/greenhouse</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.09794227,39.32448924,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Gladys W. and David H. Patton Hall (Patton Hall)</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2022-05/20170202-MCCRACKEN-DJO-0001.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 100 E. Union St., Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> North Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> In October 2021, McCracken Hall&#39;s name was changed to Gladys W. and David H. Patton Hall. The Ohio University Board of Trustees changed the name of the academic building in honor of the Patton family.<br/><br/>Gladys W. and David H. Patton Hall houses the Gladys W. and David H. Patton College of Education, and the Development Office Phonathon. Administrative offices, classrooms, computer lab, media lab, distance learning lab, and conference rooms occupy the building.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/patton-hall">https://www.ohio.edu/building-directory/patton-hall</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.09652922,39.32757443,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Glidden Hall</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-08/20070423-DSC_1261.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 3 Health Center Dr., Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> North Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Robert Glidden Hall (formerly the Music Building) is located in the North Green, coordinates I-3 on the campus map. It is marked as #54 on the map.<br/><br/>Robert Glidden Hall houses the Athens Community Music School, Music Dance Library, and the School of Music.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/glidden-hall">https://www.ohio.edu/building-directory/glidden-hall</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.09797657,39.32838467,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Gordy Hall</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-08/20080415-DSC_4686.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 51 Park Pl., Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> College Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Gordy Hall is located in the South Green, coordinates H-5 on the campus map. It is marked as #19 on the map.<br/><br/>Gordy Hall houses the departments of Linguistics and of Modern Languages, the offices of Education Abroad, the Language Resource Center, and the Ohio Program of Intensive English.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/gordy-hall">https://www.ohio.edu/building-directory/gordy-hall</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.0993897,39.32478699,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Grosvenor Hall</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-03/grosv.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 16 West Green Dr., Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> West Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Grosvenor Hall is located in the West Green, coordinates E-4 on the campus map. It is marked as #123 on the map.<br/><br/>The building houses the Graduate College, Office of Information Technology, Vice President for Research, Culinary, Anatomy class labs, and university Flexspaces.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/grosvenor-hall">https://www.ohio.edu/building-directory/grosvenor-hall</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10591893,39.32469729,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Grosvenor West</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2023-01/20221127_GrosvenorHall_lao_13.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 16 West Green Dr., Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> West Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Grosvenor West (the West wing of Grosvenor Hall) is located in the West Green, coordinates E-4 on the campus map. It is marked as #124 on the map.<br/><br/>The Grosvenor West Wing houses University Human Resources.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/grosvenor-west">https://www.ohio.edu/building-directory/grosvenor-west</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10655928,39.32490719,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Grover Center</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2023-01/20081010-DSC_4317%20%281%29.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 53 Richland Ave., Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> West Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Grover Center is located in the South Green, coordinates F-5 on the campus map. It is marked as #111 on the map.<br/><br/>Grover Center houses the Patton College of Education&#39;s departments of Human and Consumer Sciences Education and Recreation and Sport Pedagogy; and the College of Health Sciences and Professions&#39; Schools of Applied Health Sciences and Wellness, Nursing, Rehabilitation and Communication Sciences, Social and Public Health. Grover Center also houses the Atrium Cafe and WellWorks--the University&#39;s wellness program, as well as Ohio University Therapy Associates, which includes Physical Therapy and Hearing, Speech, and Language clinics.<br/><br/>The building includes over 50 classrooms and specialty labs, seating for nearly 1,600, and about 150 faculty and staff offices. Special features include a distance learning room, internet and projection technology in every classroom, a 24-station computer lab, and the Marion Parson Alden gallery for the display of student design projects.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/grover-center">https://www.ohio.edu/building-directory/grover-center</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10322976,39.32400339,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Heritage Hall</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-06/20210127heritage_hall_winter_bws0017.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 191 W Union St, Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> Union Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> Heritage Hall is located on West Union Street at D-1 on the campus parking map. The building is the newly-constructed home of the Heritage College of Osteopathic Medicine (HCOM), offering a state-of-the-art facility designed to provide students with a cutting edge medical education.<br/><br/>More information about about Heritage Hall can be found on the HCOM website.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/heritage-hall">https://www.ohio.edu/building-directory/heritage-hall</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10886956,39.32919521,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Hwa-Wei Lee Library Annex</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2023-01/20210628library_annex_bws0001.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 205 Columbus Road, Athens, OH 45701</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> The Library Annex, also known as the Southeast Ohio Regional Depository, is a high-density library storage facility for the Ohio University Libraries combining filing, retrieval, and delivery services. It includes space for a reading room, processing, and library staff, as well as the capacity to store up to 750,000 bound volumes.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/library-annex">https://www.ohio.edu/building-directory/library-annex</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10081654,39.3556866,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Innovation Center</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-08/IC_photo__1_.jpg" style="max-width:320px;" /></p>
+<p><strong>Address:</strong> 340 W. State St., Athens, OH 45701</p>
+<p><strong>Campus Green:</strong> Enterprise Green</p>
+<p><strong>Building Type:</strong> Academic</p>
+<p><strong>Current Use:</strong> The Innovation Center, located at 340 West State Street, coordinates C-1 on the campus map, is the home of Ohio University&#39;s technology business incubator. This 36,000 square foot, two-story building is marked as #145 on the map. It houses the offices of the Innovation Center, and the Technology Transfer Office.</p>
+<p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/innovation-center">https://www.ohio.edu/building-directory/innovation-center</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.11507743,39.33449832,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Irvine Hall</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-04/Irvine%20Hall.jpg" style="max-width:320px;" /></p>
+            <p><strong>Address:</strong> 57 East Oxbow Trail, Athens, OH 45701</p>
+            <p><strong>Campus Green:</strong> West Green</p>
+            <p><strong>Building Type:</strong> Academic</p>
+            <p><strong>Current Use:</strong> Irvine Hall is located in the West Green, coordinates E-4 on the campus map. It is marked as #118 on the map.<br/><br/>Irvine Hall is used by two colleges, the Heritage College of Osteopathic Medicine and the College of Arts and Sciences. It is a principal locale for a broad range of medical education and research.</p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.105432,39.325123,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Maintenance</name>
+        <Placemark>
+          <name>29 Park Place Carriage House</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-06/2021061729_park_place_bws00002.jpg" style="max-width:320px;" /></p>
+            <p><strong>Address:</strong> 31 Park Place, Athens, OH 45701</p>
+            <p><strong>Campus Green:</strong> College Green</p>
+            <p><strong>Building Type:</strong> Maintenance</p>
+            <p><strong>Current Use:</strong> The 29 Park Place Carriage House is located in the South Green, coordinates D-2 on the campus map.</p>
+            <p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/29-park-place-carriage-house">https://www.ohio.edu/building-directory/29-park-place-carriage-house</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10013121,39.32445396,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Lausche Heating Plant</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2023-01/20120327lausche_plant-0001.jpg" style="max-width:320px;" /></p>
+            <p><strong>Address:</strong> 95 Factory St., Athens, OH 45701</p>
+            <p><strong>Campus Green:</strong> Union Green</p>
+            <p><strong>Building Type:</strong> Maintenance</p>
+            <p><strong>Current Use:</strong> The Heating Plant is located in the North West Corner, coordinates D-3 on the campus map. It is marked as #133 on the map.<br/><br/>The Lausche Heating Plant supplies heat to all of the university buildings.</p>
+            <p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/lausche-heating-plant">https://www.ohio.edu/building-directory/lausche-heating-plant</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10868727,39.32686938,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Lausche Heating Plant Substation</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-03/oldheating.jpg" style="max-width:320px;" /></p>
+            <p><strong>Address:</strong> 3 Depot St., Athens, OH 45701</p>
+            <p><strong>Campus Green:</strong> Union Green</p>
+            <p><strong>Building Type:</strong> Maintenance</p>
+            <p><strong>Current Use:</strong> The Heating Substation is located West of Chubb, coordinates F-3 on the campus map. It is marked as #35 on the map.<br/><br/>The Heating Plant Substation is used as a distribution point for the campus electrical system.</p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10806541,39.32719412,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Ridges Building 37</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-06/20210628Ridges_Building37_bws0001.jpg" style="max-width:320px;" /></p>
+            <p><strong>Address:</strong> 157 South Ridge Dr., Athens, OH 45701</p>
+            <p><strong>Campus Green:</strong> Ridges Green</p>
+            <p><strong>Building Type:</strong> Maintenance</p>
+            <p><strong>Current Use:</strong> Ridges Building 37 houses the Printing Services, coordinates C-8 on the campus map. It is marked as #237 on the map.<br/><br/>The Printing Services does printing and duplicating for the university.</p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10925575,39.31840988,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Recreation</name>
+        <Placemark>
+          <name>Practice Field</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-03/hpractice.jpg" style="max-width:320px;" /></p>
+            <p><strong>Address:</strong> 50 South Green Dr., Athens, OH 45701</p>
+            <p><strong>Campus Green:</strong> South Green</p>
+            <p><strong>Building Type:</strong> Recreation</p>
+            <p><strong>Current Use:</strong> The Practice Field on the Hocking River is marked as #101 on the map.</p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.10131447,39.31994023,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Residence Hall</name>
+        <Placemark>
+          <name>Sowle Hall</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-06/20210628tanaka_house_bws0001.jpg" style="max-width:320px;" /></p>
+            <p><strong>Building Type:</strong> Residence Hall</p>
+            <p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/sowle-hall">https://www.ohio.edu/building-directory/sowle-hall</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.09781057,39.32226848,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Tiffin Hall</name>
+          <description>
+            <![CDATA[<p><img src="https://www.ohio.edu/sites/default/files/2021-03/tiffin.jpg" style="max-width:320px;" /></p>
+            <p><strong>Address:</strong> 60 East Green Dr., Athens, OH 45701</p>
+            <p><strong>Building Type:</strong> Residence Hall</p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.09654235,39.32276466,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Wilson Hall</name>
+          <description>
+            <![CDATA[<p><strong>Building Type:</strong> Residence Hall</p>
+            <p><strong>Building Directory:</strong> <a href="https://www.ohio.edu/building-directory/wilson-hall-residence">https://www.ohio.edu/building-directory/wilson-hall-residence</a></p>]]>
+          </description>
+          <Point>
+            <coordinates>-82.1061325,39.32545192,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Uncategorized</name>
+        <Placemark>
+          <name>Baker University Center - Parking Garage</name>
+          <description><![CDATA[]]></description>
+          <Point>
+            <coordinates>-82.10274583,39.32544961,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Student Commuter and Faculty/Staff Parking - Purple &amp; Dark Green Permit</name>
+        <Placemark>
+          <name>Lot 205</name>
+          <description>
+            <![CDATA[Ridges Building 5 <br>Student Commuter and Faculty/Staff Parking Purple dark green or purple permit required 7 a.m. - 5 p.m. M-F]]>
+          </description>
+          <styleUrl>#poly-673AB7-1200-77</styleUrl>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <tessellate>1</tessellate>
+                <coordinates>
+                  -82.1113047,39.319813,0 -82.1113543,39.3196496,0 -82.1110687,39.3195578,0 -82.1109986,39.319541,0 -82.1109513,39.3195347,0 -82.1109205,39.319538,0 -82.1113047,39.319813,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>
